@@ -93,24 +93,32 @@ section nav {
 
 header {
 	width: 100%;
-	/* display: flex;
-	justify-content: space-between; */
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
 }
 
-.left-container {
-	width: 50%;
+.left-header {
+	width: 45%;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .words {
 	display: flex;
 	width: 100%;
+	justify-content: center;
 }
 
 h1{
 	font-size: 75px;
 	text-align: center;
+}
+
+.right-header {
+	width: 45%;
+	display: flex;
 }
 
 button{
@@ -119,49 +127,48 @@ button{
 	margin: 0 auto;
 }
 
-.button-container{
-	margin: 0 40%;
-}
-
-.right-header{
-	display: inline-block;
-	width: 30%;
-}
-
 .right-header img{
-	width: 100%;
+	width: 60%;
 }
 
-/* .header-container {
-	width: 90%;
-	margin: 0 auto 50px;
-} */
+/* Line Break */
 
 .line-break{
-	width: 90%;
+	width: 100%;
 	margin: 30px auto;
 }
 
+/* Top Section */
+
+.top-section {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto 30px;
+}
+
 .Features{
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
 	width: 45%;
-	margin: 0 30px 0 0;
 }
 
 .About{
-	display:inline-block;
+	display:flex;
+	flex-wrap: wrap;
 	width: 45%;
 }
 
-.top{
-	width: 90%;
-	margin: 0 auto 50px;
-}
+/* Middle Image */
 
 .middle-img-container{
-	width: 80%;
-	margin: 0 auto 50px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto 30px;
 }
+
+/* Bottom Section */
 
 .Services{
 	display: inline-block;
