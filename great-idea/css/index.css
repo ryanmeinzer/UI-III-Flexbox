@@ -71,10 +71,6 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-.nav-container {
-	margin-top: 30px;
-}
-
 section nav {
 	width: 100%;
 	display: flex;
@@ -100,7 +96,6 @@ header {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	margin: 0 auto 30px;
 }
 
 .left-header {
@@ -173,6 +168,11 @@ button{
 	margin: 0 auto 30px;
 }
 
+.middle-img {
+	width: 100%;
+	height: auto;
+}
+
 /* Bottom Section */
 
 .bottom-section {
@@ -217,3 +217,6 @@ button{
 footer{
 	text-align: center;
 }
+
+/* End of Index.html, Start of Services.html */
+
