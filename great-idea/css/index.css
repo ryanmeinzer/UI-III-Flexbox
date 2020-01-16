@@ -220,3 +220,27 @@ footer{
 
 /* End of Index.html, Start of Services.html */
 
+/* Top Section & Navigation the Same; Added hyperlink to logo */
+
+/* Middle Section */
+
+.services-header-img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto 30px;
+}
+
+.services-section{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto 30px;
+}
+
+.line-break {
+	width: 100%;
+	margin: 30px auto;
+}
+
+/* Middle Section */
+
