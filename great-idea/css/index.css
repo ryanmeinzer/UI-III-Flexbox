@@ -71,10 +71,15 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
+.nav-container {
+	margin-top: 30px;
+}
+
 section nav {
 	width: 100%;
 	display: flex;
 	justify-content:space-between;
+	margin: 30px auto;
 }
 
 .links {
@@ -95,7 +100,7 @@ header {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	padding: 30px;
+	margin: 0 auto 30px;
 }
 
 .left-header {
@@ -162,7 +167,7 @@ button{
 /* Middle Image */
 
 .middle-img-container{
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	margin: 0 auto 30px;
@@ -170,36 +175,42 @@ button{
 
 /* Bottom Section */
 
-.Services{
-	display: inline-block;
-	width: 30%;
-	margin: 0 30px 0 0;
-}
-
-.Product{
-	display: inline-block;
-	width: 30%;
-	margin: 0 30px 0 0;
-}
-
-.Vision{
-	display: inline-block;
-	width: 30%;
-	margin: 0 30px 0 0;
-}
-
-.bottom{
-	width: 90%;
+.bottom-section {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 	margin: 0 auto 30px;
 }
 
+.Services{
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%;
+}
+
+.Product{
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%;
+}
+
+.Vision{
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%;
+}
+
+/* Line Break */
+
 .line-break2{
-	width: 90%;
+	width: 100%;
 	margin: 30px auto;
 }
 
+/* Contact Section */
+
 .contact{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto 30px;
 }
 
