@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 *{
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	box-sizing: border-box;
 }
 
@@ -121,9 +121,11 @@ h1{
 	display: flex;
 }
 
-button{
-	font-size: 20px;
-	padding: 5px 13px;
+.button-home {
+	font-size: 18px;
+	padding: 5px 30px;
+	border: 1px solid black;
+	color: black;
 	margin: 0 auto;
 }
 
@@ -133,9 +135,8 @@ button{
 
 /* Line Break */
 
-.line-break{
-	width: 100%;
-	margin: 30px auto;
+hr {
+	border: 1px solid black;
 }
 
 /* Top Section */
@@ -200,13 +201,6 @@ button{
 	width: 30%;
 }
 
-/* Line Break */
-
-.line-break2{
-	width: 100%;
-	margin: 30px auto;
-}
-
 /* Contact Section */
 
 .contact{
@@ -222,7 +216,7 @@ footer{
 
 /* Top Section & Navigation the Same; Added hyperlink to logo */
 
-/* Middle Section */
+/* Top-Middle Section */
 
 .services-header-img {
 	width: 100%;
@@ -252,7 +246,7 @@ footer{
 	margin: 0 auto 30px;
 }
 
-/* Middle Section */
+/* Bottom-Middle Section */
 
 .box {
 	background: #eeece8;
@@ -277,4 +271,28 @@ button {
 .row-1, .row-2, .row-3 {
 	display: flex;
 	justify-content: space-between;
+}
+
+/* Bottom Section */
+
+.bottom-section {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px auto;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.left-side {
+	display: flex;
+	flex-wrap: wrap;
+	width: 48%;
+	align-content: space-around;
+}
+
+footer {
+	text-align: center;
 }
