@@ -230,6 +230,11 @@ footer{
 	margin: 0 auto 30px;
 }
 
+.services-title {
+	font-size: 25px;
+	text-align: center;
+}
+
 .services-section{
 	width: 100%;
 	display: flex;
@@ -239,8 +244,37 @@ footer{
 
 .line-break {
 	width: 100%;
-	margin: 30px auto;
+	margin: 30px auto 0;
+}
+
+.line-break2 {
+	width: 100%;
+	margin: 0 auto 30px;
 }
 
 /* Middle Section */
 
+.box {
+	background: #eeece8;
+	display: flex;
+	flex-wrap: wrap;
+	width: 48%;
+	height: auto;
+	margin: 30px 0;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+button {
+	border-radius: 5px;
+	font-size: 10px;
+	width: 20%;
+	height: 20%;
+	margin: 15px 0;
+	border: 1px solid black;
+}
+
+.row-1, .row-2, .row-3 {
+	display: flex;
+	justify-content: space-between;
+}
